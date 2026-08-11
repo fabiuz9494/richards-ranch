@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<!-- anteprima quando il link viene mandato su WhatsApp, Facebook, ecc. -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<!-- MODIFICA QUI: quando il dominio sara' comprato, sostituire richardsranch.it ovunque
+     qui sotto, e preparare og.jpg (1200x630) con una foto vera del ranch -->
+<meta property="og:site_name" content="Richard's Ranch">
+<meta property="og:title" content="Richard's Ranch — maneggio e parco animali a Callianetto (AT)">
+<meta property="og:description" content="Passeggiate a cavallo, con gli alpaca e in carrozza, e il parco con zebra, dromedario e struzzo. A Callianetto, a un quarto d'ora da Asti. Su prenotazione.">
+<meta property="og:image" content="https://richardsranch.it/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://richardsranch.it/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://richardsranch.it/img/og.jpg">
+<link rel="canonical" href="https://richardsranch.it/">
+<!-- icona della scheda del browser: lo stemma RR del logo vero, ritagliato tondo.
+     Il logo intero non si userebbe: a 16 pixel la scritta sparisce. -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<meta name="theme-color" content="#0E2419">
+<title>Richard's Ranch — maneggio e parco animali a Callianetto</title>
+<meta name="description" content="Passeggiate a cavallo, con gli alpaca e in carrozza, e il parco con zebra, dromedario e struzzo. A Callianetto, a un quarto d'ora da Asti. Su prenotazione.">
+
+
+<style>
+/* ---------- CARATTERI ----------
+   Stanno nella cartella font/ di questo sito: il browser di chi visita
+   non contatta Google, quindi il suo indirizzo non esce di qui.
+   Per cambiarli servono i file nuovi in font/ e queste righe. */
+@font-face {
+  font-family: 'Figtree';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('font/figtree-400-italic-latin-ext-6bec9b.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('font/figtree-400-italic-latin-e8e776.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('font/figtree-300-latin-ext-467cc9.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('font/figtree-300-latin-3c512d.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('font/figtree-400-latin-ext-467cc9.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('font/figtree-400-latin-3c512d.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('font/figtree-500-latin-ext-467cc9.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('font/figtree-500-latin-3c512d.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('font/figtree-600-latin-ext-467cc9.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('font/figtree-600-latin-3c512d.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('font/prata-400-latin-7d3835.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+  /* ============ PERSONALIZZA I COLORI QUI ============ */
+  :root{
+    --verde-900:#0e2419;      /* verde bosco profondo — fondo pieno, identità */
+    --verde-800:#173324;
+    --verde-700:#204431;
+    --crema:#f4ecdc;          /* fondo caldo principale */
+    --crema-2:#ece0c9;        /* fondo caldo leggermente più scuro, per alternare fasce */
+    --avorio:#fbf7ee;
+    --ottone:#b6883f;         /* accento metallico */
+    --ottone-chiaro:#d9b876;
+    --inchiostro:#211a12;     /* testo principale su fondi chiari */
+    --inchiostro-soft:#5c5142;
+    --bordo:rgba(33,26,18,.14);
+
+    --serif:'Prata', serif;
+    --sans:'Figtree', sans-serif;
+
+    --easing:cubic-bezier(.16,.8,.24,1);
+  }
+
+  *,*::before,*::after{box-sizing:border-box;}
+  /* overflow-x:clip e NON hidden: "hidden" trasforma l'elemento in un contenitore di
+     scroll e disattiva position:sticky in tutta la pagina (il pannello prenotazione
+     smetterebbe di seguire lo scroll). "clip" contiene le foto che sconfinano
+     lasciando sticky funzionante. */
+  html{scroll-behavior:smooth;overflow-x:clip;}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+  }
+  body{
+    margin:0;
+    background:var(--crema);
+    color:var(--inchiostro);
+    font-family:var(--sans);
+    font-weight:400;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:clip;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;cursor:pointer;}
+  /* balance/pretty: il browser distribuisce le righe da solo ed evita che
+     l'ultima riga resti con una parola sola (la "vedova") */
+  h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;letter-spacing:.005em;text-wrap:balance;}
+  p{margin:0;text-wrap:pretty;}
+  blockquote{text-wrap:balance;}
+
+  /* Le etichette sono piccole, maiuscole e spaziate: in oro chiaro non si
+     leggono. Su fondo chiaro si usa un oro piu' scuro (bronzo), su foto si usa
+     una pastiglia scura, perche' sopra un'immagine il colore da solo non basta mai. */
+  .label{
+    font-size:11.5px;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:#8A6320;
+    font-weight:700;
+  }
+  .label--su-scuro{
+    display:inline-block;
+    max-width:100%;
+    color:#FDF6E7;
+    font-weight:700;
+    letter-spacing:.16em;
+    padding:6px 13px;
+    border-radius:999px;
+    background:rgba(8,15,10,.5);
+    border:1px solid rgba(217,184,118,.45);
+    -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px);
+    text-shadow:0 1px 3px rgba(6,12,8,.8);
+  }
+  /* dentro la fascia verde scura la pastiglia non serve: il fondo e' gia' pieno */
+  .fascia-scura .label--su-scuro{
+    background:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none;
+    padding:0;color:var(--ottone-chiaro);text-shadow:none;
+  }
+
+  /* il trattino accanto ai numeri delle sezioni: corto, e' un segno non una riga */
+  .filetto{
+    width:24px;height:1px;background:var(--ottone);border:0;margin:0;
+  }
+
+  .wrap{
+    max-width:1240px;
+    margin:0 auto;
+    padding:0 clamp(20px,5vw,64px);
+  }
+
+  /* ============ REVEAL ON SCROLL ============ */
+  .rv{opacity:0;transform:translateY(28px);transition:opacity 1s var(--easing), transform 1s var(--easing);}
+  .rv.rv-in{opacity:1;transform:translateY(0);}
+  .rv-stagger > *{transition-delay:calc(var(--i,0) * 90ms);}
+  @media (prefers-reduced-motion:reduce){
+    .rv{opacity:1;transform:none;transition:none;}
+  }
+
+  /* ============ HEADER ============ */
+  .site-header{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:22px clamp(20px,5vw,64px);
+    color:var(--avorio);
+    /* finche' sta sopra la foto chiara serve l'ombra, altrimenti nome e menu
+       si sciolgono nel cielo. Quando compare il fondo verde, l'ombra sparisce. */
+    text-shadow:0 1px 6px rgba(6,12,8,.7);
+    transition:background .5s var(--easing), padding .4s var(--easing), box-shadow .4s var(--easing), text-shadow .4s var(--easing);
+  }
+  /* fascia scura sfumata dietro la testata: in cima la foto e' il punto piu'
+     chiaro di tutta la pagina e nome, menu e tasto ci si perdevano dentro.
+     Sfuma verso il basso, quindi non si vede come una barra, e sparisce del
+     tutto appena compare il fondo verde dello scroll. */
+  .site-header::before{
+    content:'';position:absolute;left:0;right:0;top:0;height:190px;
+    background:linear-gradient(180deg, rgba(6,12,8,.82) 0%, rgba(6,12,8,.55) 42%, rgba(6,12,8,.22) 74%, rgba(6,12,8,0) 100%);
+    pointer-events:none;z-index:-1;
+    transition:opacity .45s var(--easing);
+  }
+  .site-header.is-scrolled::before{opacity:0;}
+  .site-header.is-scrolled{
+    background:rgba(14,36,25,.92);
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    padding:14px clamp(20px,5vw,64px);
+    box-shadow:0 8px 30px rgba(0,0,0,.18);
+    text-shadow:none;
+  }
+  .brand{
+    font-family:var(--serif);
+    font-size:22px;
+    line-height:1.12;
+    letter-spacing:.03em;
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  /* lo stemma vero del ranch, tondo: sta bene sul fondo chiaro perche' e' gia'
+     un disco nero e oro. Sul telefono si rimpicciolisce da solo. */
+  /* alto quanto le due righe del marchio, anche sul telefono: se rimpicciolisce
+     sembra un francobollo accanto al nome */
+  .brand-logo{
+    width:50px;height:50px;flex:none;border-radius:50%;
+    box-shadow:0 2px 10px -4px rgba(33,26,18,.5);
+  }
+  .brand small{
+    display:block;
+    font-family:var(--sans);
+    font-size:10.5px;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:#FDF6E7;                /* sopra la foto vince il chiaro, non l'oro */
+    font-weight:600;
+    margin-top:1px;               /* attaccata al nome: sono una cosa sola */
+  }
+  .site-header.is-scrolled .brand small{color:var(--ottone-chiaro);font-weight:400;}
+  .nav-desktop{display:flex;gap:36px;align-items:center;}
+  .nav-desktop a{
+    font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
+    font-weight:600;
+    padding:6px 0;position:relative;
+  }
+  .nav-desktop a::after{
+    content:'';position:absolute;left:0;right:0;bottom:0;height:1px;
+    background:var(--ottone-chiaro);transform:scaleX(0);transform-origin:right;
+    transition:transform .35s var(--easing);
+  }
+  .nav-desktop a:hover::after{transform:scaleX(1);transform-origin:left;}
+  .nav-desktop .btn-nav{
+    border:1px solid var(--ottone-chiaro);
+    background:rgba(8,15,10,.45);
+    -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px);
+    padding:9px 20px;
+    font-size:11.5px;
+    letter-spacing:.16em;
+  }
+  .site-header.is-scrolled .btn-nav{background:none;backdrop-filter:none;-webkit-backdrop-filter:none;}
+  .nav-desktop .btn-nav::after{display:none;}
+  .nav-desktop .btn-nav:hover{background:var(--ottone-chiaro);color:var(--verde-900);}
+  @media (max-width:900px){
+    .nav-desktop{display:none;}
+  }
+
+  /* ============ HERO ============ */
+  .hero{
+    position:relative;
+    min-height:100svh;
+    display:flex;
+    align-items:flex-end;
+    color:var(--avorio);
+    overflow:hidden;
+  }
+  .hero-img{
+    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    /* la foto e' gia' composta 16:9 come la vuole il cliente: qui si tiene
+       l'inquadratura piena e si taglia solo il minimo, spostando il taglio
+       verso il cielo. Nessun ingrandimento: si vede quello che c'e'. */
+    object-position:center 58%;
+    transform:scale(1.015);
+    animation:hero-in 2.4s var(--easing) forwards;
+  }
+  @keyframes hero-in{to{transform:scale(1);}}
+  /* il velo scuro: la foto e' un tramonto chiarissimo e senza questo
+     le scritte bianche e oro ci si perdono dentro */
+  .hero::before{
+    content:'';position:absolute;inset:0;
+    background:linear-gradient(180deg, rgba(10,16,11,.52) 0%, rgba(10,16,11,.18) 26%, rgba(10,16,11,.30) 56%, rgba(8,14,10,.84) 82%, rgba(6,12,8,.95) 100%);
+  }
+  /* min-width:0 ovunque: senza, un blocco di testo largo non si lascia
+     restringere e sul telefono sfonda lo schermo a destra */
+  .hero-content{
+    position:relative;z-index:2;
+    width:100%;min-width:0;
+    padding:0 clamp(20px,5vw,64px) clamp(56px,8vw,96px);
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    gap:18px;
+  }
+  .hero-eyebrow{
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap;min-width:0;
+    animation:fade-up 1s .5s var(--easing) both;
+  }
+  .hero h1{
+    font-size:clamp(48px,9vw,118px);
+    line-height:.98;
+    max-width:14ch;
+    text-shadow:0 3px 26px rgba(6,12,8,.55);
+    animation:fade-up 1.1s .7s var(--easing) both;
+  }
+  /* NON flex: dentro un contenitore flex il paragrafo prendeva la larghezza del
+     testo piu' lungo e sfondava lo schermo del telefono invece di andare a capo */
+  .hero-sub{
+    display:block;
+    max-width:100%;min-width:0;
+    animation:fade-up 1.1s .95s var(--easing) both;
+  }
+  /* stesso carattere e stessa pastiglia dell'etichetta qui sopra: sulla foto
+     chiara il testo nudo non regge. Le tre righe sono spezzate a mano per
+     restare della stessa lunghezza; sul telefono tornano a capo da sole. */
+  .hero-frase{
+    display:block;
+    max-width:100%;
+    font-family:var(--sans);
+    font-size:clamp(14px,1.15vw,16.5px);
+    font-weight:500;
+    line-height:1.72;
+    letter-spacing:.015em;
+    color:#FDF6E7;
+    /* niente riquadro: al suo posto una doppia ombra, una stretta per staccare
+       le lettere e una larga che fa da alone scuro sulla foto */
+    text-shadow:0 1px 3px rgba(6,12,8,.9), 0 2px 16px rgba(6,12,8,.75);
+  }
+  .hero-frase span{display:block;}
+  @media (max-width:760px){
+    .hero-frase{line-height:1.6;}
+    .hero-frase span{display:inline;}
+    /* la verticale non va tagliata in alto o in basso: si sposta solo di lato,
+       un po' verso sinistra, per non perdere la coda del cavallo */
+    .hero-img{object-position:42% center;}
+    /* (l'etichetta sopra al titolo e' tolta ovunque, vedi sotto) */
+  }
+  /* sopra al titolone non c'e' piu' niente: "maneggio e parco animali esotici"
+     e' gia' scritto in testata sotto al nome, ripeterlo era rumore */
+  .hero-eyebrow{display:none;}
+  @keyframes fade-up{
+    from{opacity:0;transform:translateY(22px);}
+    to{opacity:1;transform:translateY(0);}
+  }
+  .hero-scroll{
+    position:absolute;right:clamp(20px,5vw,64px);bottom:clamp(28px,5vw,56px);
+    z-index:2;
+    display:flex;flex-direction:column;align-items:center;gap:10px;
+    animation:fade-up 1.2s 1.3s var(--easing) both;
+  }
+  .hero-scroll span{
+    font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:rgba(253,250,244,.92);
+    text-shadow:0 1px 4px rgba(6,12,8,.8);
+    writing-mode:vertical-rl;
+  }
+  .hero-scroll .line{
+    width:1px;height:54px;background:rgba(251,247,238,.35);position:relative;overflow:hidden;
+  }
+  .hero-scroll .line::after{
+    content:'';position:absolute;top:-100%;left:0;right:0;height:100%;
+    background:var(--ottone-chiaro);
+    animation:scroll-line 2.2s ease-in-out infinite;
+  }
+  @keyframes scroll-line{
+    0%{top:-100%;} 60%{top:100%;} 100%{top:100%;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .hero-img{animation:none;transform:none;}
+    .hero-eyebrow,.hero h1,.hero-sub,.hero-scroll{animation:none;opacity:1;}
+    .hero-scroll .line::after{animation:none;}
+  }
+
+  /* ============ LAYOUT PRINCIPALE + PANNELLO STICKY ============ */
+  /* align-items:stretch (non start): la colonna del pannello deve essere alta quanto
+     tutto il contenuto, altrimenti position:sticky avrebbe solo l'altezza del box in
+     cui scorrere e si fermerebbe quasi subito. */
+  .main-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:stretch;
+    max-width:1560px;
+    margin:0 auto;
+  }
+  @media (min-width:1000px){
+    .main-grid{
+      grid-template-columns:minmax(0,1fr) 340px;
+      gap:0;
+    }
+  }
+  .colonna-contenuto{min-width:0;}
+
+  .colonna-prenota{display:none;}
+  @media (min-width:1000px){
+    .colonna-prenota{
+      display:block;
+      position:relative;
+      padding:40px 28px 40px 0;
+    }
+    .box-prenota{
+      position:sticky;
+      top:104px;
+      max-height:calc(100svh - 128px);
+      overflow-y:auto;
+      background:var(--avorio);
+      border:1px solid var(--bordo);
+      box-shadow:0 24px 60px -20px rgba(20,30,20,.28);
+      padding:30px 26px;
+      scrollbar-width:thin;
+    }
+  }
+  .box-prenota-titolo{
+    font-size:22px;
+    margin-bottom:6px;
+  }
+  .box-prenota-sub{
+    font-size:12.5px;
+    color:var(--inchiostro-soft);
+    margin-bottom:22px;
+    padding-bottom:20px;
+    border-bottom:1px solid var(--bordo);
+  }
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    padding:15px 22px;
+    font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
+    border:1px solid transparent;
+    transition:transform .3s var(--easing), background .3s var(--easing), color .3s var(--easing), border-color .3s var(--easing);
+    width:100%;
+  }
+  .btn-ottone{
+    background:var(--verde-900);color:var(--avorio);
+  }
+  .btn-ottone:hover{background:var(--ottone);color:var(--verde-900);transform:translateY(-2px);}
+  .btn-outline{
+    background:transparent;border-color:var(--inchiostro);color:var(--inchiostro);
+    margin-top:10px;
+  }
+  .btn-outline:hover{background:var(--inchiostro);color:var(--avorio);}
+
+  /* ============ SEZIONI GENERICHE ============ */
+  section{position:relative;}
+  .fascia{padding:clamp(72px,10vw,132px) 0;}
+  .intro-sezione{max-width:640px;margin-bottom:clamp(40px,6vw,72px);}
+  .intro-sezione h2{font-size:clamp(32px,4.2vw,52px);line-height:1.05;margin-top:14px;}
+  .intro-sezione p.desc{margin-top:18px;font-size:16px;color:var(--inchiostro-soft);max-width:52ch;}
+
+  /* ---- narrativa a due colonne (chi siamo / come lavoriamo) ---- */
+  .narrativa{
+    display:grid;grid-template-columns:1fr;gap:56px;align-items:center;
+  }
+  @media (min-width:860px){
+    .narrativa{grid-template-columns:1.05fr .95fr;gap:clamp(48px,6vw,90px);}
+  }
+  .narrativa-foto{aspect-ratio:4/5;overflow:hidden;}
+  /* sul telefono la foto esce dalle imbottiture e arriva ai due bordi dello
+     schermo, come le fasce grandi: la cornice chiara attorno faceva francobollo */
+  @media (max-width:859px){
+    .narrativa-foto{
+      width:100vw;
+      margin-left:calc(50% - 50vw);
+      margin-right:calc(50% - 50vw);
+      aspect-ratio:4/4.2;
+    }
+  }
+  .narrativa-foto img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--easing);}
+  .narrativa-foto:hover img{transform:scale(1.05);}
+  .narrativa-testo .label{margin-bottom:16px;display:block;}
+  .narrativa-testo h2{font-size:clamp(30px,3.6vw,44px);line-height:1.08;}
+  .narrativa-testo p{margin-top:20px;font-size:16px;color:var(--inchiostro-soft);max-width:46ch;}
+  .narrativa-testo .cifre{display:flex;gap:40px;margin-top:32px;}
+  .narrativa-testo .cifra-item .num{font-family:var(--serif);font-size:30px;color:var(--verde-900);}
+  .narrativa-testo .cifra-item .txt{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--inchiostro-soft);margin-top:2px;}
+
+  .fascia-crema-2{background:var(--crema-2);}
+
+  /* ---- fascia scura con promessa ---- */
+  .fascia-scura{
+    background:var(--verde-900);
+    color:var(--avorio);
+    padding:clamp(88px,13vw,160px) 0;
+    position:relative;
+    overflow:hidden;
+  }
+  .fascia-scura::before{
+    content:'';position:absolute;inset:0;
+    background:
+      radial-gradient(600px 400px at 12% 20%, rgba(182,136,63,.14), transparent 60%),
+      radial-gradient(700px 500px at 88% 85%, rgba(182,136,63,.10), transparent 60%);
+    pointer-events:none;
+  }
+  .fascia-scura .wrap{position:relative;text-align:center;}
+  .fascia-scura .label{display:block;margin-bottom:26px;}
+  .fascia-scura blockquote{
+    margin:0 auto;max-width:16ch;
+    font-size:clamp(30px,5.2vw,64px);
+    line-height:1.12;
+    font-style:normal;
+  }
+  .fascia-scura .firma{
+    margin-top:34px;font-size:13px;letter-spacing:.1em;color:var(--ottone-chiaro);
+  }
+
+  /* ---- camere: righe alternate ---- */
+  .camera-riga{
+    display:grid;grid-template-columns:1fr;gap:0;
+    align-items:stretch;
+  }
+  @media (min-width:860px){
+    .camera-riga{grid-template-columns:1fr 1fr;min-height:560px;}
+    .camera-riga.inversa .camera-foto{order:2;}
+    .camera-riga.inversa .camera-info{order:1;}
+  }
+  .camera-foto{position:relative;overflow:hidden;min-height:340px;}
+  .camera-foto img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform 1.6s var(--easing);}
+  .camera-riga:hover .camera-foto img{transform:scale(1.045);}
+  /* Il bleed spinge la foto solo verso il bordo ESTERNO della riga (mai verso il testo,
+     per evitare sovrapposizioni). Non-inversa: foto a sinistra → bleed a sinistra.
+     Inversa: foto a destra (via order) → bleed a destra. overflow-x:clip su html/body
+     rende innocuo lo sconfinamento oltre il viewport senza disattivare position:sticky. */
+  @media (min-width:860px){
+    .camera-riga:not(.inversa) .camera-foto{margin-left:clamp(-96px,-6vw,-32px);}
+    .camera-riga.inversa .camera-foto{margin-right:clamp(-96px,-6vw,-32px);}
+  }
+  /* Da 1000px in su compare la colonna del pannello prenotazione: a destra non c'è
+     più il bordo dello schermo ma il pannello, quindi il bleed destro ci finirebbe
+     sotto. Sulle righe inverse lo azzeriamo e la foto si allinea come le altre. */
+  @media (min-width:1000px){
+    .camera-riga.inversa .camera-foto{margin-right:0;}
+  }
+  .camera-info{
+    display:flex;flex-direction:column;justify-content:center;
+    padding:48px clamp(20px,4vw,32px);
+  }
+  .camera-numero{
+    font-family:var(--serif);font-size:15px;color:var(--ottone);
+    display:flex;align-items:center;gap:12px;margin-bottom:18px;
+  }
+  .camera-info h3{font-size:clamp(30px,3.4vw,42px);}
+  .camera-info .desc{margin-top:16px;font-size:15.5px;color:var(--inchiostro-soft);max-width:42ch;}
+  .camera-dettagli{
+    display:flex;flex-wrap:wrap;gap:0;
+    margin-top:26px;
+    border-top:1px solid var(--bordo);
+  }
+  .camera-dettagli span{
+    font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--inchiostro-soft);
+    padding:12px 18px 12px 0;
+    border-right:1px solid var(--bordo);
+    margin-right:18px;
+  }
+  .camera-dettagli span:last-child{border-right:0;}
+  .camera-prezzo-riga{
+    display:flex;align-items:baseline;gap:10px;margin-top:26px;
+  }
+  .camera-prezzo-riga .cifra{font-family:var(--serif);font-size:26px;}
+  .camera-prezzo-riga .txt{font-size:12px;color:var(--inchiostro-soft);}
+  .camera-cta{
+    margin-top:22px;display:inline-flex;width:max-content;
+    padding:13px 26px;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+    border:1px solid var(--inchiostro);
+    transition:background .3s var(--easing), color .3s var(--easing);
+  }
+  .camera-cta:hover{background:var(--verde-900);border-color:var(--verde-900);color:var(--avorio);}
+
+  /* ---- immagine piena larghezza (giardino) ---- */
+  .full-bleed{
+    position:relative;width:100%;
+    height:clamp(360px,62vw,640px);
+    overflow:hidden;
+  }
+  .full-bleed img{width:100%;height:100%;object-fit:cover;}
+  /* il velo saliva troppo poco e si fermava troppo chiaro: sopra un prato al sole
+     le scritte bianche sparivano. Ora parte piu' scuro e arriva piu' in alto. */
+  .full-bleed::after{
+    content:'';position:absolute;inset:0;
+    background:linear-gradient(0deg, rgba(8,14,10,.92) 0%, rgba(8,14,10,.78) 28%, rgba(8,14,10,.45) 55%, rgba(8,14,10,.08) 80%, rgba(8,14,10,0) 100%);
+  }
+  .full-bleed-testo{
+    position:absolute;left:0;right:0;bottom:0;z-index:2;
+    padding:clamp(28px,6vw,64px) clamp(20px,5vw,64px);
+    color:var(--avorio);
+    text-shadow:0 1px 4px rgba(6,12,8,.75), 0 2px 18px rgba(6,12,8,.6);
+  }
+  .full-bleed-testo h2{font-size:clamp(28px,4.4vw,54px);max-width:16ch;}
+  .full-bleed-testo p{margin-top:14px;font-size:15px;max-width:46ch;color:rgba(253,250,244,.96);}
+
+  /* ---- recensioni ---- */
+  .recensioni-griglia{
+    display:grid;grid-template-columns:1fr;gap:52px;
+  }
+  @media (min-width:760px){
+    .recensioni-griglia{grid-template-columns:repeat(3,1fr);gap:clamp(32px,4vw,56px);}
+  }
+  .recensione{
+    padding-top:26px;
+    border-top:1px solid var(--bordo);
+  }
+  .recensione .quote-mark{
+    font-family:var(--serif);font-size:46px;color:var(--ottone);line-height:1;display:block;margin-bottom:6px;
+  }
+  .recensione p{
+    font-style:italic;font-size:16.5px;line-height:1.65;color:var(--inchiostro);
+  }
+  .recensione .autore{
+    margin-top:20px;font-size:12px;letter-spacing:.06em;
+    color:var(--inchiostro-soft);text-transform:uppercase;
+  }
+  .recensione .autore strong{color:var(--inchiostro);text-transform:none;letter-spacing:0;font-family:var(--serif);font-size:14px;display:block;margin-bottom:3px;}
+
+  /* ---- dove siamo ---- */
+  .dove-grid{
+    display:grid;grid-template-columns:1fr;gap:48px;
+  }
+  @media (min-width:900px){
+    .dove-grid{grid-template-columns:1fr 1fr;gap:clamp(40px,5vw,80px);align-items:start;}
+  }
+  /* la mappa col percorso segnato: il rapporto e' quello dell'immagine, altrimenti
+     il taglio mangerebbe la rotonda o il ranch. Nessun filtro: il seppia spegneva
+     il rosso del percorso. Cliccandola si apre il navigatore. */
+  .dove-mappa{aspect-ratio:1505/809;overflow:hidden;position:relative;display:block;}
+  .dove-mappa img{width:100%;height:100%;object-fit:cover;display:block;}
+  /* piccolo: l'indirizzo e' gia' scritto nei contatti qui accanto, qui basta
+     un promemoria che non copra la mappa */
+  .dove-mappa-badge{
+    position:absolute;left:12px;bottom:12px;z-index:2;
+    background:rgba(251,247,238,.94);padding:6px 10px;border-radius:6px;
+    font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;
+    display:flex;align-items:center;gap:7px;
+    box-shadow:0 6px 16px rgba(20,30,20,.18);
+  }
+  .dove-mappa-badge .filetto{width:11px !important;}
+  .contatti-lista{list-style:none;margin:24px 0 0;padding:0;}
+  /* flex-wrap: su un telefono stretto etichetta e valore vanno uno sotto l'altro
+     invece di schiacciarsi o sfondare la riga */
+  .contatti-lista li{
+    display:flex;justify-content:space-between;gap:6px 16px;flex-wrap:wrap;
+    padding:14px 0;border-bottom:1px solid var(--bordo);
+    font-size:14.5px;
+  }
+  .contatti-lista li > *{min-width:0;}
+  .contatti-lista li span:first-child{color:var(--inchiostro-soft);font-size:11px;letter-spacing:.1em;text-transform:uppercase;}
+  .contatti-lista li a{border-bottom:1px solid transparent;transition:border-color .25s;}
+  .contatti-lista li a:hover{border-color:var(--inchiostro);}
+
+  table.orari{
+    width:100%;border-collapse:collapse;margin-top:34px;font-size:14px;
+  }
+  table.orari caption{
+    text-align:left;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ottone);margin-bottom:14px;
+  }
+  table.orari td{padding:12px 4px;border-bottom:1px solid var(--bordo);color:var(--inchiostro-soft);}
+  table.orari td:first-child{text-transform:capitalize;color:var(--inchiostro);width:40%;}
+  table.orari tr.oggi td{color:var(--verde-900);font-weight:600;}
+  table.orari tr.oggi td:first-child{position:relative;padding-left:16px;}
+  table.orari tr.oggi td:first-child::before{
+    content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);
+    width:6px;height:6px;background:var(--ottone);border-radius:50%;
+  }
+
+  .contatti-cta{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap;}
+  .contatti-cta .btn{width:auto;padding:15px 26px;}
+
+  /* ============ FOOTER ============ */
+  footer{
+    background:var(--verde-900);color:rgba(251,247,238,.8);
+    padding:64px 0 28px;
+  }
+  .footer-grid{
+    display:grid;grid-template-columns:1fr;gap:36px;
+    padding-bottom:36px;border-bottom:1px solid rgba(251,247,238,.14);
+  }
+  @media (min-width:760px){
+    .footer-grid{grid-template-columns:1.4fr 1fr 1fr;}
+  }
+  .footer-brand{font-family:var(--serif);font-size:24px;color:var(--avorio);}
+  .footer-brand small{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ottone-chiaro);margin-top:8px;}
+  .footer-col h4{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ottone-chiaro);margin-bottom:16px;}
+  .footer-col a,.footer-col p{display:block;font-size:14px;margin-bottom:9px;color:rgba(251,247,238,.75);}
+  .footer-col a:hover{color:var(--avorio);}
+  .footer-bottom{
+    display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
+    padding-top:22px;font-size:12px;color:rgba(251,247,238,.55);
+  }
+  /* ============ TOAST ============ */
+  .toast{
+    position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);
+    background:var(--inchiostro);color:var(--avorio);
+    padding:14px 22px;font-size:13px;letter-spacing:.02em;
+    box-shadow:0 16px 40px rgba(0,0,0,.28);
+    z-index:400;opacity:0;pointer-events:none;
+    transition:opacity .35s var(--easing), transform .35s var(--easing);
+  }
+  .toast.mostra{opacity:1;transform:translate(-50%,0);}
+
+  /* ============ BARRA MOBILE FISSA ============ */
+  .barra-mobile{display:none;}
+  @media (max-width:900px){
+    .barra-mobile{
+      display:flex;position:fixed;left:0;right:0;bottom:0;z-index:200;
+      background:var(--verde-900);
+      padding:8px 16px;
+      padding-bottom:8px; padding-bottom:max(8px, env(safe-area-inset-bottom));
+      gap:10px;
+      box-shadow:0 -10px 30px rgba(0,0,0,.25);
+    }
+    .barra-mobile .btn{padding:12px 14px;font-size:11.5px;}
+    .barra-mobile .btn-chiama{background:transparent;border:1px solid rgba(251,247,238,.4);color:var(--avorio);}
+    .barra-mobile .btn-prenota{background:var(--ottone);color:var(--verde-900);}
+    body{padding-bottom:calc(64px + env(safe-area-inset-bottom));}
+  }
+
+  /* ============ GALLERIA: NASTRO CHE SCORRE ============
+     Il nastro e' una striscia che scorre da sola e si puo' trascinare col dito.
+     Le foto sono scritte due volte di fila: quando la prima meta' e' passata,
+     lo scorrimento torna indietro della meta' esatta e l'occhio non se ne
+     accorge — cosi' il giro sembra infinito senza copiare nulla a mano. */
+  .nastro{
+    margin-top:clamp(28px,4vw,44px);
+    overflow-x:auto; overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    cursor:grab;
+  }
+  .nastro::-webkit-scrollbar{display:none;}
+  .nastro.trascino{cursor:grabbing;}
+  .nastro-pista{display:flex; gap:14px; padding:0 clamp(20px,5vw,64px); width:max-content;}
+  .scatto{
+    flex:none; width:clamp(180px,22vw,260px); aspect-ratio:3/4;
+    padding:0; border:0; background:var(--crema); overflow:hidden;
+    border-radius:3px; box-shadow:0 10px 26px -18px rgba(20,30,20,.9);
+    transition:transform .5s var(--easing), box-shadow .5s var(--easing);
+  }
+  .scatto img{width:100%;height:100%;object-fit:cover;display:block;}
+  .scatto:hover{transform:translateY(-6px); box-shadow:0 18px 34px -18px rgba(20,30,20,.95);}
+
+  .nastro-nota{
+    margin-top:18px; font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--inchiostro-soft);
+  }
+
+  /* ============ FOTO A SCHERMO INTERO ============ */
+  .lente{
+    position:fixed; inset:0; z-index:300;
+    background:rgba(8,14,10,.94);
+    -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px);
+    display:flex; align-items:center; justify-content:center;
+    padding:clamp(12px,3vw,40px);
+    animation:lente-in .28s var(--easing) both;
+  }
+  @keyframes lente-in{from{opacity:0}to{opacity:1}}
+  .lente[hidden]{display:none;}
+  .lente-corpo{margin:0; max-width:100%; max-height:100%; display:flex; flex-direction:column; gap:14px;}
+  .lente-corpo img{
+    max-width:100%; max-height:78vh; object-fit:contain; margin:0 auto;
+    border-radius:3px; box-shadow:0 30px 70px -30px #000;
+  }
+  .lente-corpo figcaption{
+    display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap;
+    color:var(--avorio); font-size:14px; text-align:center;
+  }
+  .lente-corpo figcaption em{font-style:normal; color:var(--ottone-chiaro); font-size:12px; letter-spacing:.12em;}
+  .lente-chiudi,.lente-freccia{
+    position:absolute; z-index:2;
+    background:rgba(251,247,238,.12); color:var(--avorio);
+    border:1px solid rgba(251,247,238,.28); border-radius:50%;
+    width:50px; height:50px; font-size:30px; line-height:1;
+    display:grid; place-items:center;
+    transition:background .25s var(--easing);
+  }
+  .lente-chiudi:hover,.lente-freccia:hover{background:rgba(251,247,238,.26);}
+  .lente-chiudi{top:clamp(12px,2.5vw,28px); right:clamp(12px,2.5vw,28px); font-size:34px;}
+  .lente-freccia{top:50%; transform:translateY(-50%);}
+  .lente-freccia.sx{left:clamp(8px,2vw,28px);}
+  .lente-freccia.dx{right:clamp(8px,2vw,28px);}
+  @media (max-width:600px){
+    .lente-freccia{width:44px;height:44px;font-size:26px;}
+    .lente-corpo img{max-height:68vh;}
+  }
+
+  ::selection{background:var(--ottone);color:var(--avorio);}
+
+/* ---- come vanno a capo le frasi ----------------------------------------
+   balance: le righe di un titolo vengono distribuite in parti uguali, così
+   non resta mai una parola sola in fondo.
+   pretty: nei testi lunghi evita di lasciare appesa a fine riga una parolina
+   (il, la, di, che) e di mandare a capo una parola da sola.
+   I browser che non le conoscono le ignorano e basta: nessun rischio. */
+h1, h2, h3{ text-wrap:balance; }
+p, li, figcaption, blockquote{ text-wrap:pretty; }
+</style>
+
+<!-- Dati strutturati (schema.org / JSON-LD): dicono a Google nome, indirizzo, telefono e orari
+     di questa struttura, cosi' puo' mostrare la scheda con orari e indicazioni nei risultati
+     di ricerca. Personalizzando il sito per un cliente vero, questi dati vanno aggiornati
+     insieme a quelli in pagina: se restano diversi da quello che si vede, Google li penalizza. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "TouristAttraction"],
+  "name": "Richard's Ranch",
+  "alternateName": "Richard's Ranch Esotic Park",
+  "description": "Maneggio e parco animali a Callianetto, in provincia di Asti. Passeggiate a cavallo, con gli alpaca e in carrozza, lezioni di equitazione, visite guidate al parco degli animali esotici, feste ed eventi.",
+  "url": "https://richardsranch.it/",
+  "image": "https://richardsranch.it/og.jpg",
+  "telephone": "+393282443138",
+  "email": "Richard.renna2002@gmail.com",
+  "sameAs": [
+    "https://www.instagram.com/maneggio_richards_ranch_",
+    "https://www.facebook.com/richards.ranch.3"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "67",
+    "bestRating": "5"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Montechiaro 31",
+    "postalCode": "14033",
+    "addressLocality": "Callianetto, Castell'Alfero",
+    "addressRegion": "AT",
+    "addressCountry": "IT"
+  },
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Passeggiata a cavallo"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Passeggiata con gli alpaca"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Giro in carrozza"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Visita al parco degli animali"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lezioni di equitazione"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Feste, eventi e spettacoli equestri"}}
+  ]
+}
+
+</script>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="brand">
+    <img class="brand-logo" src="img/logo.png" alt="Stemma di Richard's Ranch" width="42" height="42">
+    <span>Richard's Ranch
+      <small>Maneggio &amp;&nbsp;Esotic Park&nbsp;·&nbsp;Callianetto</small>
+    </span>
+  </a>
+  <nav class="nav-desktop">
+    <a href="#esperienze">Cosa si fa</a>
+    <a href="#animali">Gli animali</a>
+    <a href="#galleria">Foto</a>
+    <a href="#dove">Come arrivare</a>
+    <a href="#" class="btn-nav js-wa">Prenota</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <!-- due tagli della stessa foto: sul telefono quella verticale, dove il cavallo
+       sta in alto e sotto resta il prato per le scritte; sul computer quella larga -->
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-mobile.jpg">
+    <img class="hero-img" src="img/hero.jpg" alt="Il cavallo bianco al pascolo davanti alle case di Callianetto, al tramonto" loading="eager" fetchpriority="high">
+  </picture>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="filetto" style="background:var(--ottone-chiaro)"></span>
+      <span class="label label--su-scuro">Maneggio e&nbsp;parco animali esotici ·&nbsp;Callianetto&nbsp;(AT)</span>
+    </div>
+    <h1>Richard's<br>Ranch</h1>
+    <div class="hero-sub">
+      <p class="hero-frase">
+        <span>Cavalli, alpaca e&nbsp;animali che&nbsp;di&nbsp;solito si&nbsp;vedono&nbsp;in&nbsp;fotografia,</span>
+        <span>a&nbsp;un&nbsp;quarto d'ora da&nbsp;Asti, tra&nbsp;le&nbsp;colline del&nbsp;Monferrato&nbsp;astigiano.</span>
+        <span>Passeggiate, carrozza e&nbsp;visite in&nbsp;fattoria, sempre&nbsp;su&nbsp;prenotazione.</span>
+      </p>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scorri</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<!-- ============ GRIGLIA PRINCIPALE: CONTENUTO + PANNELLO STICKY ============ -->
+<div class="main-grid">
+
+  <div class="colonna-contenuto">
+
+    <!-- ============ CHI SIAMO / COME LAVORIAMO ============ -->
+    <section class="fascia" id="ranch">
+      <div class="wrap">
+
+        <div class="narrativa rv" style="margin-bottom:clamp(64px,9vw,112px);">
+          <div class="narrativa-foto">
+            <!-- MODIFICA QUI: foto di Richard con gli animali -->
+            <img src="img/richard.jpg" alt="La cura quotidiana dei cavalli al ranch" loading="lazy">
+          </div>
+          <div class="narrativa-testo">
+            <span class="label">Chi siamo</span>
+            <h2>Una passione,<br>diventata un mestiere.</h2>
+            <p>Gli&nbsp;animali sono sempre stati la&nbsp;mia&nbsp;passione, da&nbsp;quando ero&nbsp;piccolo. Appena finita la&nbsp;scuola l'ho trasformata in&nbsp;un&nbsp;lavoro vero: nel&nbsp;2019 ho&nbsp;aperto la&nbsp;mia&nbsp;attività. Poi&nbsp;ho&nbsp;fatto il&nbsp;passo più&nbsp;lungo —&nbsp;ho&nbsp;spostato tutto in&nbsp;una&nbsp;struttura molto più&nbsp;grande, immersa nel&nbsp;verde, pensata perché gli&nbsp;animali ci&nbsp;stiano bene: spazio, ombra&nbsp;e&nbsp;tranquillità.</p>
+            <div class="cifre">
+              <div class="cifra-item">
+                <div class="num">2019</div>
+                <div class="txt">Da quell'anno</div>
+              </div>
+              <div class="cifra-item">
+                <div class="num">30</div>
+                <div class="txt">Specie di animali</div>
+              </div>
+              <div class="cifra-item">
+                <div class="num">9</div>
+                <div class="txt">Posti per passeggiata</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="narrativa rv">
+          <div class="narrativa-testo" style="order:2;">
+            <span class="label">Come lavoriamo</span>
+            <h2>Gli animali vengono<br>prima del lavoro.</h2>
+            <p>Nelle giornate calde le&nbsp;passeggiate si&nbsp;fanno solo la&nbsp;mattina presto o&nbsp;verso sera, mai&nbsp;nelle ore&nbsp;centrali. Se&nbsp;la&nbsp;giornata non&nbsp;è&nbsp;adatta, l'uscita salta e&nbsp;basta. Gli&nbsp;animali esotici sono tutti in&nbsp;regola con&nbsp;i&nbsp;permessi CITES e&nbsp;le&nbsp;autorizzazioni dell'ASL: qui&nbsp;non&nbsp;c'è&nbsp;niente che&nbsp;non&nbsp;debba&nbsp;esserci.</p>
+          </div>
+          <div class="narrativa-foto" style="order:1;">
+            <!-- MODIFICA QUI: foto degli animali all'ombra / nel verde -->
+            <img src="img/pascolo.jpg" alt="Il ranch visto dal viale, con le tettoie e i cavalli" loading="lazy">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ FASCIA VERDE SCURO — PROMESSA ============ -->
+    <section class="fascia-scura">
+      <div class="wrap rv">
+        <span class="label label--su-scuro">La nostra regola</span>
+        <blockquote>Prima di&nbsp;essere il&nbsp;nostro&nbsp;lavoro,<br>sono la nostra passione.</blockquote>
+        <p class="firma">Richard</p>
+      </div>
+    </section>
+
+    <!-- ============ LE CAMERE ============ -->
+    <section class="fascia" id="esperienze">
+      <div class="wrap">
+        <div class="intro-sezione rv">
+          <span class="label">Cosa si fa qui</span>
+          <h2>Sei modi di passare<br>una giornata al ranch.</h2>
+          <p class="desc">Ogni uscita ha&nbsp;i&nbsp;posti contati, quindi si&nbsp;prenota sempre: una&nbsp;chiamata o&nbsp;un&nbsp;messaggio, risponde Richard. E&nbsp;dopo l'attività, per&nbsp;chi&nbsp;vuole, c'è&nbsp;l'aperitivo&nbsp;o&nbsp;la&nbsp;merenda.</p>
+        </div>
+      </div>
+
+      <div class="wrap" style="padding:0;">
+        <div class="camera-riga rv">
+          <div class="camera-foto">
+            <!-- MODIFICA QUI: foto passeggiata a cavallo -->
+            <img src="img/cavallo.jpg" alt="Uscita di gruppo a cavallo lungo i sentieri, vista dalla sella" loading="lazy">
+          </div>
+          <div class="camera-info">
+            <div class="camera-numero"><span>I</span><span class="filetto"></span></div>
+            <h3>Passeggiata a cavallo</h3>
+            <p class="desc">Il&nbsp;giro tra&nbsp;le&nbsp;colline, al&nbsp;passo giusto per&nbsp;chi&nbsp;non&nbsp;è&nbsp;mai&nbsp;salito in&nbsp;sella, e&nbsp;i&nbsp;percorsi più&nbsp;lunghi per&nbsp;chi&nbsp;ci&nbsp;sa&nbsp;fare. D'estate si&nbsp;parte la&nbsp;mattina presto o&nbsp;verso il&nbsp;tramonto. I&nbsp;bambini, anche i&nbsp;più&nbsp;piccoli, il&nbsp;loro giro lo&nbsp;fanno sempre: l'unico limite è&nbsp;il&nbsp;peso, fino&nbsp;a&nbsp;110&nbsp;kg.</p>
+            <div class="camera-dettagli">
+              <span>Anche per principianti</span>
+              <span>Anche i bambini piccoli</span>
+              <span>Fino a 110 kg</span>
+            </div>
+            <div class="camera-prezzo-riga">
+              <span class="cifra">9</span>
+              <span class="txt">posti per ogni uscita</span>
+            </div>
+            <a href="#" class="camera-cta js-wa" data-wa="cavallo">Prenota una passeggiata</a>
+          </div>
+        </div>
+
+        <div class="camera-riga inversa rv">
+          <div class="camera-foto">
+            <!-- MODIFICA QUI: foto passeggiata con gli alpaca -->
+            <img src="img/alpaca.jpg" alt="Gli alpaca del ranch al pascolo" loading="lazy">
+          </div>
+          <div class="camera-info">
+            <div class="camera-numero"><span>II</span><span class="filetto"></span></div>
+            <h3>Passeggiata&nbsp;con&nbsp;gli&nbsp;alpaca</h3>
+            <p class="desc">Si&nbsp;cammina accanto a&nbsp;loro, non&nbsp;si&nbsp;monta: per&nbsp;questo va&nbsp;bene con&nbsp;i&nbsp;bambini piccoli e&nbsp;con&nbsp;chi&nbsp;davanti a&nbsp;un&nbsp;cavallo ha&nbsp;un&nbsp;po'&nbsp;di&nbsp;soggezione. Con&nbsp;i&nbsp;pony al&nbsp;seguito si&nbsp;sale&nbsp;a&nbsp;sei&nbsp;persone.</p>
+            <div class="camera-dettagli">
+              <span>Si va a piedi</span>
+              <span>Con i pony fino a 6</span>
+              <span>Adatta ai bambini</span>
+            </div>
+            <div class="camera-prezzo-riga">
+              <span class="cifra">4</span>
+              <span class="txt">posti, sei con i pony</span>
+            </div>
+            <a href="#" class="camera-cta js-wa" data-wa="alpaca">Prenota con gli alpaca</a>
+          </div>
+        </div>
+
+        <div class="camera-riga rv">
+          <div class="camera-foto">
+            <!-- MODIFICA QUI: foto della carrozza -->
+            <img src="img/carrozza.jpg" alt="La carrozza del ranch trainata dai cavalli" loading="lazy">
+          </div>
+          <div class="camera-info">
+            <div class="camera-numero"><span>III</span><span class="filetto"></span></div>
+            <h3>Giro in carrozza</h3>
+            <p class="desc">Seduti, senza fatica, al&nbsp;passo dei&nbsp;cavalli. Va&nbsp;bene per&nbsp;i&nbsp;nonni, per&nbsp;i&nbsp;bambini piccoli e&nbsp;per&nbsp;le&nbsp;occasioni in&nbsp;cui&nbsp;ci&nbsp;si&nbsp;vuole solo godere&nbsp;il&nbsp;giro.</p>
+            <div class="camera-dettagli">
+              <span>Nessuna esperienza</span>
+              <span>Tutte le età</span>
+              <span>Anche per cerimonie</span>
+            </div>
+            <div class="camera-prezzo-riga">
+              <span class="cifra">5</span>
+              <span class="txt">posti in carrozza</span>
+            </div>
+            <a href="#" class="camera-cta js-wa" data-wa="carrozza">Prenota la carrozza</a>
+          </div>
+        </div>
+
+        <div class="camera-riga inversa rv">
+          <div class="camera-foto">
+            <!-- MODIFICA QUI: foto zebra / dromedario / struzzo -->
+            <img src="img/esotici.jpg" alt="Il dromedario, la zebra, le capre e i pony insieme nel parco" loading="lazy">
+          </div>
+          <div class="camera-info">
+            <div class="camera-numero"><span>IV</span><span class="filetto"></span></div>
+            <h3>Il giro in fattoria</h3>
+            <p class="desc">Si&nbsp;entra nel&nbsp;parco e&nbsp;si&nbsp;fa&nbsp;il&nbsp;giro insieme a&nbsp;noi,&nbsp;a&nbsp;conoscere la&nbsp;zebra, il&nbsp;dromedario, lo&nbsp;struzzo, i&nbsp;lama e&nbsp;i&nbsp;pappagalli. Alcuni animali si&nbsp;possono accarezzare e&nbsp;imboccare, altri si&nbsp;guardano soltanto —&nbsp;ve&nbsp;lo&nbsp;diciamo&nbsp;noi,&nbsp;uno&nbsp;per&nbsp;uno.</p>
+            <div class="camera-dettagli">
+              <span>Visita guidata</span>
+              <span>Tutte le età</span>
+              <span>CITES e ASL in regola</span>
+            </div>
+            <div class="camera-prezzo-riga">
+              <span class="cifra">30</span>
+              <span class="txt">specie da vedere</span>
+            </div>
+            <a href="#" class="camera-cta js-wa" data-wa="fattoria">Prenota la visita</a>
+          </div>
+        </div>
+
+        <div class="camera-riga rv">
+          <div class="camera-foto">
+            <!-- MODIFICA QUI: foto lezione nel campo -->
+            <img src="img/spettacolo.jpg" alt="Il campo coperto, dove si fa lezione anche quando piove" loading="lazy">
+          </div>
+          <div class="camera-info">
+            <div class="camera-numero"><span>V</span><span class="filetto"></span></div>
+            <h3>Lezioni e&nbsp;battesimo della&nbsp;sella</h3>
+            <p class="desc">Dalla prima volta in&nbsp;sella, che&nbsp;si&nbsp;fa&nbsp;accompagnati e&nbsp;senza fretta, alle lezioni per&nbsp;chi&nbsp;vuole imparare sul&nbsp;serio. C'è&nbsp;il&nbsp;campo coperto: quando piove si&nbsp;lavora&nbsp;lo&nbsp;stesso.</p>
+            <div class="camera-dettagli">
+              <span>Battesimo della sella</span>
+              <span>Lezioni singole</span>
+              <span>Campo coperto</span>
+            </div>
+            <div class="camera-prezzo-riga">
+              <span class="cifra">Sempre</span>
+              <span class="txt">anche quando piove,&nbsp;nel&nbsp;coperto</span>
+            </div>
+            <a href="#" class="camera-cta js-wa" data-wa="lezioni">Chiedi delle lezioni</a>
+          </div>
+        </div>
+
+        <div class="camera-riga inversa rv">
+          <div class="camera-foto">
+            <!-- MODIFICA QUI: foto festa / spettacolo equestre -->
+            <!-- ancorata in alto: il cavallo e' impennato e la testa sfiora il bordo.
+                 Quello che si perde e' la polvere in basso, che non serve a nessuno. -->
+            <img src="img/festa.jpg" alt="Spettacolo equestre di alta scuola spagnola al ranch" loading="lazy" style="object-position:center top;">
+          </div>
+          <div class="camera-info">
+            <div class="camera-numero"><span>VI</span><span class="filetto"></span></div>
+            <h3>Feste, eventi&nbsp;e&nbsp;spettacoli</h3>
+            <p class="desc">Compleanni per&nbsp;bambini e&nbsp;per&nbsp;grandi, addii al&nbsp;nubilato e&nbsp;al&nbsp;celibato, feste private, matrimoni. E&nbsp;gli&nbsp;spettacoli equestri di&nbsp;alta scuola spagnola, che&nbsp;portiamo anche fuori&nbsp;dal&nbsp;ranch.</p>
+            <div class="camera-dettagli">
+              <span>Compleanni e addii</span>
+              <span>Cerimonie</span>
+              <span>Alta scuola spagnola</span>
+            </div>
+            <div class="camera-prezzo-riga">
+              <span class="cifra">Su misura</span>
+              <span class="txt">si organizza insieme</span>
+            </div>
+            <a href="#" class="camera-cta js-wa" data-wa="feste">Organizziamo insieme</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IL GIARDINO — IMMAGINE PIENA LARGHEZZA ============ -->
+    <section class="full-bleed rv" id="animali">
+      <!-- MODIFICA QUI: foto larga con Jago, Alvin o Stiv -->
+      <img src="img/dromedario.jpg" alt="Jago la zebra al pascolo con gli altri animali" loading="lazy">
+      <div class="full-bleed-testo">
+        <h2>Jago, Alvin e Stiv<br>abitano qui.</h2>
+        <p>Una&nbsp;zebra, un&nbsp;dromedario e&nbsp;uno&nbsp;struzzo, in&nbsp;mezzo alle colline dell'Astigiano. Con&nbsp;loro cavalli, pony, asini, alpaca, lama, capre, pavoni e&nbsp;pappagalli: una&nbsp;trentina di&nbsp;specie in&nbsp;tutto, tutte con&nbsp;i&nbsp;permessi CITES e&nbsp;le&nbsp;autorizzazioni&nbsp;ASL&nbsp;in&nbsp;regola.</p>
+      </div>
+    </section>
+
+    <!-- ============ RECENSIONI ============
+         Sono recensioni VERE, copiate dalla scheda Google del ranch.
+         Non si aggiunge, non si corregge e non si inventa niente: se un giorno
+         si cambiano, si ricopiano da li'. I tre puntini indicano un taglio. -->
+    <section class="fascia" id="recensioni">
+      <div class="wrap">
+        <div class="intro-sezione rv">
+          <span class="label">Chi è stato qui</span>
+          <h2>Non lo diciamo noi.</h2>
+          <p class="desc"><strong>4,7&nbsp;stelle&nbsp;su&nbsp;67&nbsp;recensioni</strong> lasciate su&nbsp;Google da&nbsp;chi&nbsp;è&nbsp;già&nbsp;venuto&nbsp;a&nbsp;trovarci.</p>
+        </div>
+
+        <div class="recensioni-griglia rv rv-stagger">
+          <div class="recensione" style="--i:0">
+            <span class="quote-mark">"</span>
+            <p>Passeggiata incantevole nei&nbsp;boschi con&nbsp;Richard e&nbsp;i&nbsp;suoi cavalli. Abbiamo poi&nbsp;fatto aperitivo sulla panchina gigante, accarezzando la&nbsp;zebra, il&nbsp;dromedario e&nbsp;tutti gli&nbsp;animali del&nbsp;ranch. Esperienza bellissima per&nbsp;grandi&nbsp;e&nbsp;piccini.</p>
+            <div class="autore"><strong>Maria Giulia Terribile</strong>Recensione su Google</div>
+          </div>
+          <div class="recensione" style="--i:1">
+            <span class="quote-mark">"</span>
+            <p>Siamo stati a&nbsp;fare il&nbsp;giro della fattoria con&nbsp;un&nbsp;bimbo di&nbsp;2&nbsp;anni e&nbsp;mezzo e&nbsp;una&nbsp;bimba di&nbsp;8. Ci&nbsp;siamo divertiti molto, il&nbsp;personale è&nbsp;stato gentilissimo, la&nbsp;ragazza che&nbsp;ci&nbsp;ha&nbsp;fatto fare il&nbsp;giro ci&nbsp;ha&nbsp;raccontato molto sugli animali… Alla fine era&nbsp;incluso un&nbsp;aperitivo con&nbsp;prosecco e&nbsp;succo&nbsp;per&nbsp;i&nbsp;bimbi.</p>
+            <div class="autore"><strong>Elena Viansino</strong>Recensione su Google</div>
+          </div>
+          <div class="recensione" style="--i:2">
+            <span class="quote-mark">"</span>
+            <p>Bellissimo posto, con&nbsp;tanti animali anche salvati da&nbsp;morte certa. Meravigliosa la&nbsp;passeggiata con&nbsp;gli&nbsp;alpaca, carini e&nbsp;coccolosi… Aperitivo finale nella fattoria esotica con&nbsp;il&nbsp;cammello, la&nbsp;zebra, le&nbsp;caprette e&nbsp;le&nbsp;mucche, sulla panchina gigante: conclusione di&nbsp;una&nbsp;bellissima&nbsp;giornata!</p>
+            <div class="autore"><strong>Cristina Aumenta</strong>Recensione su Google</div>
+          </div>
+        </div>
+
+        <div class="rv" style="text-align:center;margin-top:38px;">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Richard%27s+Ranch+Callianetto" target="_blank" rel="noopener" class="btn btn-outline" style="width:auto;display:inline-flex;">Leggi tutte le&nbsp;recensioni&nbsp;su&nbsp;Google</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ GALLERIA ============ -->
+    <section class="fascia fascia-crema-2" id="galleria">
+      <div class="wrap">
+        <div class="intro-sezione rv">
+          <span class="label">La galleria</span>
+          <h2>Il ranch, giorno<br>per giorno.</h2>
+          <p class="desc">Foto vere, scattate qui.&nbsp;Toccane una&nbsp;per&nbsp;aprirla e&nbsp;sfogliarle&nbsp;tutte.</p>
+        </div>
+      </div>
+
+      <div class="nastro" id="nastro" role="region" aria-label="Foto del ranch, scorrevoli">
+        <div class="nastro-pista" id="pista">
+          <button class="scatto" type="button" data-i="0">
+            <img src="img/galleria/mini/g01.jpg" alt="Passeggiata tra i girasoli" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="1">
+            <img src="img/galleria/mini/g02.jpg" alt="I bambini incontrano Jago, la zebra" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="2">
+            <img src="img/galleria/mini/g03.jpg" alt="Jago" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="3">
+            <img src="img/galleria/mini/g04.jpg" alt="Alvin, il dromedario" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="4">
+            <img src="img/galleria/mini/g05.jpg" alt="Un puledro appena nato" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="5">
+            <img src="img/galleria/mini/g06.jpg" alt="Il giro in fattoria con Alvin" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="6">
+            <img src="img/galleria/mini/g07.jpg" alt="Uscita di gruppo tra i campi" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="7">
+            <img src="img/galleria/mini/g08.jpg" alt="Richard e i suoi cavalli" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="8">
+            <img src="img/galleria/mini/g09.jpg" alt="Anche le mucche dal pelo lungo" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="9">
+            <img src="img/galleria/mini/g10.jpg" alt="Riposo sulla paglia" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="10">
+            <img src="img/galleria/mini/g11.jpg" alt="In fila lungo il sentiero" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="11">
+            <img src="img/galleria/mini/g12.jpg" alt="Muso a muso" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="12">
+            <img src="img/galleria/mini/g13.jpg" alt="I cavalli al pascolo" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="13">
+            <img src="img/galleria/mini/g14.jpg" alt="Sera al pascolo" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="14">
+            <img src="img/galleria/mini/g15.jpg" alt="Il campo grande e quello coperto" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="15">
+            <img src="img/galleria/mini/g16.jpg" alt="Anche i cani di casa" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="16">
+            <img src="img/galleria/mini/g17.jpg" alt="Ricordo di giornata" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="0" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g01.jpg" alt="Passeggiata tra i girasoli" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="1" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g02.jpg" alt="I bambini incontrano Jago, la zebra" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="2" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g03.jpg" alt="Jago" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="3" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g04.jpg" alt="Alvin, il dromedario" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="4" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g05.jpg" alt="Un puledro appena nato" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="5" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g06.jpg" alt="Il giro in fattoria con Alvin" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="6" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g07.jpg" alt="Uscita di gruppo tra i campi" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="7" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g08.jpg" alt="Richard e i suoi cavalli" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="8" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g09.jpg" alt="Anche le mucche dal pelo lungo" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="9" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g10.jpg" alt="Riposo sulla paglia" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="10" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g11.jpg" alt="In fila lungo il sentiero" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="11" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g12.jpg" alt="Muso a muso" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="12" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g13.jpg" alt="I cavalli al pascolo" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="13" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g14.jpg" alt="Sera al pascolo" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="14" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g15.jpg" alt="Il campo grande e quello coperto" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="15" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g16.jpg" alt="Anche i cani di casa" loading="lazy" decoding="async">
+          </button>
+          <button class="scatto" type="button" data-i="16" aria-hidden="true" tabindex="-1">
+            <img src="img/galleria/mini/g17.jpg" alt="Ricordo di giornata" loading="lazy" decoding="async">
+          </button>
+        </div>
+      </div>
+      <p class="nastro-nota wrap">Tocca una&nbsp;foto&nbsp;per&nbsp;ingrandirla</p>
+    </section>
+
+    <!-- ============ DOVE SIAMO ============ -->
+    <section class="fascia fascia-crema-2" id="dove">
+      <div class="wrap">
+        <div class="intro-sezione rv">
+          <span class="label">Come arrivare</span>
+          <h2>A Callianetto,<br>un quarto d'ora da Asti.</h2>
+        </div>
+
+        <div class="dove-grid rv">
+          <div>
+            <a class="dove-mappa"
+               href="https://www.google.com/maps/dir//Maneggio+Richard%27s+Ranch_esotik_park,+Via+Montechiaro,+31,+14033+Callianetto+AT/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47879588c0bfdf8d:0x10a44a092256b961"
+               target="_blank" rel="noopener" title="Apri il percorso su Google Maps">
+              <img src="img/mappa.jpg" alt="Mappa dall'alto con il percorso segnato: dalla rotonda si prende via Montechiaro e si gira a sinistra fino a Richard's Ranch" loading="lazy">
+              <div class="dove-mappa-badge">
+                <span class="filetto" style="width:16px;"></span>
+                Via&nbsp;Montechiaro 31, Callianetto&nbsp;(AT)
+              </div>
+            </a>
+
+            <div style="margin-top:28px;">
+              <span class="label">La strada</span>
+              <p style="margin-top:12px;">Alla rotonda prendere&nbsp;in&nbsp;direzione <strong>Villa San&nbsp;Secondo&nbsp;—&nbsp;Montechiaro</strong>. Proseguire circa <strong>400-500 metri</strong> sulla strada e,&nbsp;appena finiscono i&nbsp;caseggiati, girare a&nbsp;sinistra nella prima strada che&nbsp;si&nbsp;vede, dove&nbsp;c'è&nbsp;il&nbsp;cartello <strong>Richard's Ranch</strong>.</p>
+            </div>
+          </div>
+
+          <div>
+            <span class="label">Contatti</span>
+            <ul class="contatti-lista">
+              <li><span>Indirizzo</span><span>Via&nbsp;Montechiaro 31, 14033 Callianetto —&nbsp;Castell'Alfero&nbsp;(AT)</span></li>
+              <li><span>Telefono</span><a href="tel:" class="js-tel">328 244 3138</a></li>
+              <li><span>Email</span><a href="mailto:Richard.renna2002@gmail.com">Richard.renna2002@gmail.com</a></li>
+              <li><span>Quando</span><span>tutti i&nbsp;giorni, solo&nbsp;su&nbsp;prenotazione</span></li>
+              <li><span>Bambini</span><span>anche i&nbsp;più&nbsp;piccoli fanno il&nbsp;loro&nbsp;giro</span></li>
+              <li><span>Peso massimo</span><span>110 kg in sella</span></li>
+              <li><span>Se piove</span><span>si&nbsp;va&nbsp;nel&nbsp;campo coperto, la&nbsp;lezione&nbsp;si&nbsp;fa&nbsp;lo&nbsp;stesso</span></li>
+            </ul>
+            <div class="contatti-cta">
+              <a href="#" class="btn btn-ottone js-wa" style="width:auto;">Scrivi su WhatsApp</a>
+              <a href="#" class="btn btn-outline js-tel" style="width:auto;margin-top:0;">Chiama il ranch</a>
+              <!-- apre direttamente il navigatore verso il ranch: su telefono parte
+                   l'app Google Maps, su computer si apre il percorso nel browser -->
+              <a href="https://www.google.com/maps/dir//Maneggio+Richard%27s+Ranch_esotik_park,+Via+Montechiaro,+31,+14033+Callianetto+AT/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47879588c0bfdf8d:0x10a44a092256b961"
+                 target="_blank" rel="noopener"
+                 class="btn btn-outline" style="width:auto;margin-top:0;">Naviga con Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /colonna-contenuto -->
+
+  <!-- ============ PANNELLO PRENOTAZIONE STICKY ============ -->
+  <aside class="colonna-prenota">
+    <div class="box-prenota">
+      <div class="box-prenota-titolo">Si prenota sempre</div>
+      <div class="box-prenota-sub">I&nbsp;posti di&nbsp;ogni uscita sono contati. Risponde Richard,&nbsp;di&nbsp;persona.</div>
+
+      <ul class="contatti-lista" style="margin:22px 0 26px;">
+        <li><span>Dove</span><span>Via&nbsp;Montechiaro 31, Callianetto&nbsp;(AT)</span></li>
+        <li><span>Telefono</span><a href="tel:" class="js-tel">328 244 3138</a></li>
+        <li><span>Quando</span><span>tutti i&nbsp;giorni, solo&nbsp;su&nbsp;prenotazione</span></li>
+      </ul>
+
+      <a href="#" class="btn btn-ottone js-wa">Prenota su WhatsApp</a>
+      <a href="#" class="btn btn-outline js-tel">Chiama il ranch</a>
+    </div>
+  </aside>
+
+</div><!-- /main-grid -->
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Richard's Ranch
+          <small>Esotic Park —&nbsp;maneggio e&nbsp;parco animali, Callianetto&nbsp;(AT)</small>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Esplora</h4>
+        <a href="#esperienze">Cosa si fa</a>
+        <a href="#animali">Gli animali</a>
+        <a href="#ranch">Il ranch</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#recensioni">Recensioni</a>
+        <a href="#dove">Come arrivare</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contatti</h4>
+        <p>Via&nbsp;Montechiaro 31, Callianetto&nbsp;(AT)</p>
+        <a href="tel:" class="js-tel">328 244 3138</a>
+        <a href="mailto:Richard.renna2002@gmail.com">Richard.renna2002@gmail.com</a>
+      </div>
+      <div class="footer-col">
+        <h4>Seguici</h4>
+        <a href="https://www.instagram.com/maneggio_richards_ranch_" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/richards.ranch.3" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <!-- MODIFICA QUI: e' una ASD. Quando Richard manda la DENOMINAZIONE ESATTA
+           dell'associazione e il suo CODICE FISCALE (quello dell'ente, 11 cifre,
+           non il suo personale) la riga diventa cosi':
+           © 2026 A.S.D. Nome Esatto · C.F. 01234567890
+           Il codice fiscale personale di Richard non va pubblicato. -->
+      <span>© 2026 Richard's Ranch</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ BARRA MOBILE FISSA ============ -->
+<div class="barra-mobile">
+  <a href="#" class="btn btn-chiama js-tel">Chiama</a>
+  <a href="#" class="btn btn-prenota js-wa">Prenota</a>
+</div>
+
+
+<!-- ============ FOTO A SCHERMO INTERO ============ -->
+<div class="lente" id="lente" hidden>
+  <button class="lente-chiudi" id="lente-chiudi" aria-label="Chiudi">&times;</button>
+  <button class="lente-freccia sx" id="lente-sx" aria-label="Foto precedente">&#8249;</button>
+  <button class="lente-freccia dx" id="lente-dx" aria-label="Foto successiva">&#8250;</button>
+  <figure class="lente-corpo">
+    <img id="lente-img" src="" alt="">
+    <figcaption><span id="lente-dida"></span><em id="lente-conta"></em></figcaption>
+  </figure>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+
+  /* ============ PERSONALIZZA I DATI DEL CLIENTE QUI ============ */
+  const CFG = {
+    whatsapp: "393282443138",
+    telefono: "+393282443138",
+    messaggio: "Buongiorno! Vorrei prenotare al ranch.\n\nCosa vorrei fare: \nQuando: \nQuante persone (e se ci sono bambini): \nNome: "
+  };
+
+  // Messaggi specifici per pulsante: la chiave va nell'attributo data-wa del pulsante.
+  // Per aggiungerne uno nuovo basta aggiungere una voce qui e mettere data-wa="chiave" sul pulsante.
+  const MESSAGGI = {
+    cavallo:  "Buongiorno! Vorrei prenotare una passeggiata a cavallo.\n\nQuando: \nQuante persone: \nSiamo già saliti a cavallo? \nNome: ",
+    alpaca:   "Buongiorno! Vorrei prenotare la passeggiata con gli alpaca.\n\nQuando: \nQuante persone (e se ci sono bambini): \nNome: ",
+    carrozza: "Buongiorno! Vorrei prenotare un giro in carrozza.\n\nQuando: \nQuante persone: \nNome: ",
+    fattoria: "Buongiorno! Vorrei venire a visitare il parco degli animali.\n\nQuando: \nQuanti adulti e quanti bambini: \nNome: ",
+    lezioni:  "Buongiorno! Vorrei informazioni sulle lezioni di equitazione.\n\nPer chi: \nHa già esperienza? \nNome: ",
+    feste:    "Buongiorno! Vorrei organizzare una festa al ranch.\n\nChe occasione: \nQuando: \nQuante persone: \nNome: "
+  };
+
+  const toastEl = document.getElementById('toast');
+  let toastTimer = null;
+  function mostraToast(testo){
+    toastEl.textContent = testo;
+    toastEl.classList.add('mostra');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(()=> toastEl.classList.remove('mostra'), 2600);
+  }
+
+  // Link WhatsApp
+  document.querySelectorAll('.js-wa').forEach(function(el){
+    var testo = MESSAGGI[el.dataset.wa] || CFG.messaggio;
+    if (CFG.whatsapp) {
+      el.href = 'https://wa.me/' + CFG.whatsapp + '?text=' + encodeURIComponent(testo);
+      el.target = '_blank';
+      el.rel = 'noopener';
+    } else {
+      el.addEventListener('click', function(e){
+        e.preventDefault();
+        mostraToast('Demo · qui si apre WhatsApp della struttura');
+      });
+    }
+  });
+
+  // Link telefono
+  document.querySelectorAll('.js-tel').forEach(function(el){
+    if (CFG.telefono) {
+      el.href = 'tel:' + CFG.telefono;
+    } else {
+      el.addEventListener('click', function(e){
+        e.preventDefault();
+        mostraToast('Demo · qui parte la chiamata alla struttura');
+      });
+    }
+  });
+
+  // Header: sfondo su scroll
+  const header = document.getElementById('siteHeader');
+  function aggiornaHeader(){
+    if (window.scrollY > 60) header.classList.add('is-scrolled');
+    else header.classList.remove('is-scrolled');
+  }
+  aggiornaHeader();
+  window.addEventListener('scroll', aggiornaHeader, { passive:true });
+
+  // Reveal on scroll
+  const elementiRv = document.querySelectorAll('.rv');
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReduced || !('IntersectionObserver' in window)) {
+    elementiRv.forEach(el => el.classList.add('rv-in'));
+  } else {
+    const observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add('rv-in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+    elementiRv.forEach(el => observer.observe(el));
+  }
+
+  // Tabella orari: evidenzia il giorno corrente (0 = lunedì)
+  const idx = (new Date().getDay() + 6) % 7;
+  const righeOrari = document.querySelectorAll('#tabellaOrari tbody tr');
+  if (righeOrari[idx]) righeOrari[idx].classList.add('oggi');
+
+})();
+</script>
+
+<script>
+/* ======================================================================
+   LA GALLERIA
+   1) il nastro scorre da solo, ma si ferma appena qualcuno lo tocca o ci
+      passa sopra col mouse: non deve scappare mentre uno guarda;
+   2) le foto sono ripetute due volte, quindi a meta' corsa si torna
+      indietro della meta' esatta e il giro sembra non finire mai;
+   3) trascinare e' diverso da toccare: se il dito si e' spostato piu' di
+      qualche pixel non si apre la foto, altrimenti aprirebbe sempre.
+   ====================================================================== */
+(function(){
+  var FOTO = [
+  {f:"g01.jpg", d:"Passeggiata tra i girasoli"},
+  {f:"g02.jpg", d:"I bambini incontrano Jago, la zebra"},
+  {f:"g03.jpg", d:"Jago"},
+  {f:"g04.jpg", d:"Alvin, il dromedario"},
+  {f:"g05.jpg", d:"Un puledro appena nato"},
+  {f:"g06.jpg", d:"Il giro in fattoria con Alvin"},
+  {f:"g07.jpg", d:"Uscita di gruppo tra i campi"},
+  {f:"g08.jpg", d:"Richard e i suoi cavalli"},
+  {f:"g09.jpg", d:"Anche le mucche dal pelo lungo"},
+  {f:"g10.jpg", d:"Riposo sulla paglia"},
+  {f:"g11.jpg", d:"In fila lungo il sentiero"},
+  {f:"g12.jpg", d:"Muso a muso"},
+  {f:"g13.jpg", d:"I cavalli al pascolo"},
+  {f:"g14.jpg", d:"Sera al pascolo"},
+  {f:"g15.jpg", d:"Il campo grande e quello coperto"},
+  {f:"g16.jpg", d:"Anche i cani di casa"},
+  {f:"g17.jpg", d:"Ricordo di giornata"}
+  ];
+  var nastro = document.getElementById('nastro');
+  var pista  = document.getElementById('pista');
+  if (!nastro || !pista) return;
+
+  var lento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fermo = false, trascina = false, partenzaX = 0, partenzaScroll = 0, spostato = 0;
+
+  /* La posizione si tiene in una variabile a parte e si scrive tutta insieme:
+     sommando frazioni di pixel direttamente allo scorrimento, il browser le
+     arrotonda a zero e il nastro resta fermo. */
+  var pos = 0;
+  function passo(){
+    if (!fermo && !trascina && !lento) {
+      var meta = pista.scrollWidth / 2;
+      if (meta > 0) {
+        pos += 0.55;
+        if (pos >= meta) pos -= meta;
+        nastro.scrollLeft = pos;
+      }
+    }
+    requestAnimationFrame(passo);
+  }
+  requestAnimationFrame(passo);
+  /* se qualcuno sposta il nastro a mano, si riparte da dove l'ha lasciato */
+  nastro.addEventListener('scroll', function(){
+    if (trascina || fermo) pos = nastro.scrollLeft;
+  }, {passive:true});
+
+  nastro.addEventListener('mouseenter', function(){ fermo = true; });
+  nastro.addEventListener('mouseleave', function(){ fermo = false; });
+  nastro.addEventListener('touchstart', function(){ fermo = true; }, {passive:true});
+  nastro.addEventListener('touchend',  function(){ setTimeout(function(){ fermo = false; }, 2500); });
+
+  nastro.addEventListener('pointerdown', function(e){
+    if (e.pointerType === 'touch') return;      /* col dito basta lo scorrimento del telefono */
+    trascina = true; spostato = 0;
+    partenzaX = e.clientX; partenzaScroll = nastro.scrollLeft;
+    nastro.classList.add('trascino');
+  });
+  window.addEventListener('pointermove', function(e){
+    if (!trascina) return;
+    var d = e.clientX - partenzaX;
+    spostato = Math.abs(d);
+    nastro.scrollLeft = partenzaScroll - d;
+  });
+  window.addEventListener('pointerup', function(){
+    if (!trascina) return;
+    trascina = false; nastro.classList.remove('trascino');
+    setTimeout(function(){ spostato = 0; }, 50);
+  });
+
+  /* ---------- la foto a schermo intero ---------- */
+  var lente  = document.getElementById('lente');
+  var img    = document.getElementById('lente-img');
+  var dida   = document.getElementById('lente-dida');
+  var conta  = document.getElementById('lente-conta');
+  var quale  = 0;
+
+  function precarica(i){
+    if (i < 0 || i >= FOTO.length) return;
+    var p = new Image(); p.src = 'img/galleria/' + FOTO[i].f;
+  }
+  function mostra(i){
+    quale = (i + FOTO.length) % FOTO.length;
+    img.src = 'img/galleria/' + FOTO[quale].f;
+    img.alt = FOTO[quale].d;
+    dida.textContent = FOTO[quale].d;
+    conta.textContent = (quale + 1) + ' / ' + FOTO.length;
+    precarica(quale + 1); precarica(quale - 1);
+  }
+  function apri(i){
+    mostra(i);
+    lente.hidden = false;
+    document.body.style.overflow = 'hidden';
+    document.getElementById('lente-chiudi').focus();
+  }
+  function chiudi(){
+    lente.hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  pista.addEventListener('click', function(e){
+    var b = e.target.closest('.scatto');
+    if (!b || spostato > 6) return;
+    apri(parseInt(b.dataset.i, 10) || 0);
+  });
+
+  document.getElementById('lente-chiudi').onclick = chiudi;
+  document.getElementById('lente-sx').onclick = function(){ mostra(quale - 1); };
+  document.getElementById('lente-dx').onclick = function(){ mostra(quale + 1); };
+  lente.addEventListener('click', function(e){ if (e.target === lente) chiudi(); });
+  document.addEventListener('keydown', function(e){
+    if (lente.hidden) return;
+    if (e.key === 'Escape') chiudi();
+    if (e.key === 'ArrowLeft') mostra(quale - 1);
+    if (e.key === 'ArrowRight') mostra(quale + 1);
+  });
+
+  /* scorrimento col dito dentro la foto grande */
+  var tx = 0;
+  lente.addEventListener('touchstart', function(e){ tx = e.changedTouches[0].clientX; }, {passive:true});
+  lente.addEventListener('touchend', function(e){
+    var d = e.changedTouches[0].clientX - tx;
+    if (Math.abs(d) > 45) mostra(quale + (d < 0 ? 1 : -1));
+  });
+})();
+</script>
+</body>
+</html>
